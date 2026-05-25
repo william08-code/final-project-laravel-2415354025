@@ -1,11 +1,29 @@
-@import 'tailwindcss';
+body {
+    background-color: #F5EFEB;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
+.sidebar-bg {
+    background-color: #2F4156;
+}
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+.primary-color {
+    color: #2F4156;
+}
+
+.secondary-color {
+    color: #567C8D;
+}
+
+.primary-btn {
+    background-color: #567C8D;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background-color: #2F4156;
+}
+
+.card-shadow {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
